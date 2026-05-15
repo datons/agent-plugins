@@ -1,0 +1,14 @@
+{
+  "$schema": "https://docs.claude.com/claude-plugin/plugin.json",
+  "name": "esios",
+  "description": "Mercado eléctrico ibérico (MIBEL) vía ESIOS de Red Eléctrica: precios mercado diario, demanda, generación por tecnología, servicios de balance.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Datons",
+    "email": "hola@datons.com",
+    "url": "https://datons.com"
+  },
+  "homepage": "https://datons.com/apps/esios",
+  "license": "MIT",
+  "keywords": ["energy", "electricity", "market", "esios", "ree", "mibel", "iberia"]
+}

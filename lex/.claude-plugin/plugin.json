@@ -1,0 +1,14 @@
+{
+  "$schema": "https://docs.claude.com/claude-plugin/plugin.json",
+  "name": "lex",
+  "description": "Legislación de España, Italia y Chile. Resuelve citas, busca artículos por texto, compara versiones, lee versiones históricas.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Datons",
+    "email": "hola@datons.com",
+    "url": "https://datons.com"
+  },
+  "homepage": "https://datons.com/apps/lex",
+  "license": "MIT",
+  "keywords": ["legal", "legislation", "boe", "lex", "spanish", "italian", "chilean"]
+}

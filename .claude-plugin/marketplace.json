@@ -1,0 +1,26 @@
+{
+  "$schema": "https://docs.claude.com/claude-plugin/marketplace.json",
+  "name": "datons",
+  "owner": {
+    "name": "Datons",
+    "email": "hola@datons.com",
+    "url": "https://datons.com"
+  },
+  "description": "Agent plugins for Iberian energy market data and Spanish/Italian/Chilean legislation. Each plugin wraps an MCP server hosted at mcp.datons.com.",
+  "plugins": [
+    {
+      "name": "lex",
+      "source": "./lex",
+      "description": "Spanish, Italian and Chilean legislation. Resolve citations, search the corpus (101K+ laws / 700K+ legal units), compare versions, read historical versions of any article.",
+      "category": "legal",
+      "tags": ["legal", "legislation", "boe", "lex", "spanish", "italian", "chilean"]
+    },
+    {
+      "name": "esios",
+      "source": "./esios",
+      "description": "Iberian electricity market (MIBEL) data via ESIOS (REE): daily market prices, demand, generation by technology, balancing services (SRAD).",
+      "category": "energy",
+      "tags": ["energy", "electricity", "market", "esios", "ree", "mibel", "iberia"]
+    }
+  ]
+}

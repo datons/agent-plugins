@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "esios": {
+      "type": "http",
+      "url": "https://mcp.datons.com/esios/mcp/"
+    }
+  }
+}
