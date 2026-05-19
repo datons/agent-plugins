@@ -1,0 +1,14 @@
+{
+  "$schema": "https://docs.claude.com/claude-plugin/plugin.json",
+  "name": "tutorial-plugin",
+  "description": "Plugin de ejemplo para tutorial: contiene una skill 'hello-world' demostrativa.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Datons",
+    "email": "hola@datons.com",
+    "url": "https://datons.com"
+  },
+  "homepage": "https://datons.com/tutorials/tutorial-plugin",
+  "license": "MIT",
+  "keywords": ["tutorial", "example", "demo", "precio-md"]
+}

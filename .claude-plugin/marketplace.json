@@ -22,5 +22,13 @@
       "category": "energy",
       "tags": ["energy", "electricity", "market", "esios", "ree", "mibel", "iberia"]
     }
+    ,
+    {
+      "name": "tutorial-plugin",
+      "source": "./tutorial-plugin",
+      "description": "Plugin de ejemplo para tutorial; contiene una skill 'hello-world' demostrativa.",
+      "category": "tutorial",
+      "tags": ["tutorial", "example", "demo", "precio-md"]
+    }
   ]
 }
