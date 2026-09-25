@@ -2,7 +2,7 @@
 
 Acceso a la API ESIOS (Sistema de Información del Operador del Sistema) de Red Eléctrica de España: precios del mercado mayorista MIBEL, demanda, generación por tecnología, servicios de balance, indicadores macro del sistema eléctrico ibérico.
 
-## MCP tools (servidor `mcp.datons.com/esios/mcp/`)
+## MCP tools (servidor `api.datons.com/esios/mcp`)
 
 El MCP expone wrappers sobre la API de ESIOS oficial. Los indicadores (precios, demanda, generación) se acceden por su ID numérico ESIOS o por nombre semántico. Datons añade caching, paginación inteligente y traducción a estructuras analíticas (matrices horarias).
 

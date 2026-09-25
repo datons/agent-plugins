@@ -2,7 +2,7 @@
   "mcpServers": {
     "esios": {
       "type": "http",
-      "url": "https://mcp.datons.com/esios/mcp/"
+      "url": "https://api.datons.com/esios/mcp"
     }
   }
 }

@@ -1,6 +1,6 @@
 # datons agent-plugins
 
-Plugins for Claude Code, Claude Desktop, VSCode Copilot Chat, and other agent-plugin-compatible clients. Each plugin bundles an MCP server hosted at `mcp.datons.com` plus skills that exercise it from natural-language prompts.
+Plugins for Claude Code, Claude Desktop, VSCode Copilot Chat, and other agent-plugin-compatible clients. Each plugin bundles an MCP server hosted at `api.datons.com` plus skills that exercise it from natural-language prompts.
 
 ## Plugins
 
@@ -32,7 +32,7 @@ Requires `chat.plugins.enabled` (org-managed setting, currently in preview).
 
 ## Authentication
 
-Both MCPs use OAuth. The first time a skill invokes a tool, your agent client opens a browser to `mcp.datons.com` for authentication. Subsequent calls reuse the cached token.
+Both MCPs use OAuth. The first time a skill invokes a tool, your agent client opens a browser to sign in (Supabase OAuth for `api.datons.com`) for authentication. Subsequent calls reuse the cached token.
 
 A datons.com account is required. Sign up at <https://datons.com>.
 

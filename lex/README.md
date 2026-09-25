@@ -12,7 +12,7 @@ Acceso a un corpus de 101 654 leyes (708 899 unidades legales) de tres jurisdicc
 
 Rangos normativos cubiertos: Real Decreto, Ley, Ley Orgánica, Real Decreto-ley, Resolución, Decreto, Decreto-ley, Decreto Legislativo, Decreto Presidencial, Reglamento, Circular, Instrucción, Constitución, Acuerdo, Código.
 
-## MCP tools (servidor `mcp.datons.com/lex/mcp/`)
+## MCP tools (servidor `api.datons.com/lex/mcp`)
 
 - `describe` — overview del corpus con facetas (geo, rango, fuente, estado, tipo de unidad). Llamada inicial recomendada para preguntas tipo "¿qué tienes?".
 - `list_laws` — listado paginado y faceteable de leyes. Parámetros: `q` (texto en título), `jurisdiction` (`es`/`cl`/`it`), `status`, `facets` (Lucene), `sort_by`.
