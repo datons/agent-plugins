@@ -31,7 +31,7 @@ claude plugin install lex@datons
 codex plugin marketplace add datons/agent-plugins
 ```
 
-Then install `fabric` from the plugin browser. Only `fabric` ships a Codex manifest for now.
+Then `codex plugin add fabric@datons`. Only `fabric` ships a Codex manifest for now.
 
 ### VSCode Copilot Chat (agent mode)
 

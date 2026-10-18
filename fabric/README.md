@@ -12,7 +12,7 @@ Claude Code:
 /plugin install fabric --marketplace datons/agent-plugins
 ```
 
-Codex: `codex plugin marketplace add datons/agent-plugins`, then install `fabric` from the plugin browser.
+Codex: `codex plugin marketplace add datons/agent-plugins`, then `codex plugin add fabric@datons`.
 
 ## Requirements
 
