@@ -6,7 +6,7 @@ Plugins for Claude Code, Claude Desktop, VSCode Copilot Chat, and other agent-pl
 
 - **`lex`** — Spanish, Italian and Chilean legislation. 101K+ laws, 700K+ legal units from BOE (Spain), Gazzetta Ufficiale (Italy), Diario Oficial (Chile). Citation resolution, full-text and faceted search, version comparison, time-travel queries to any historical version of an article.
 - **`esios`** — Iberian electricity market (MIBEL) data via the ESIOS API of REE (Spanish system operator). Daily market prices, demand, generation by technology, balancing services (SRAD), historical comparisons.
-- **`fabric`** — Your own Microsoft Fabric lakehouse from Python, with your own Microsoft identity: SQL analytics endpoint, OneLake Delta tables, access check and team-validated queries. No MCP server and no datons account needed. See [`fabric/README.md`](fabric/README.md).
+- **`fabric`** — Your own Microsoft Fabric lakehouse from Python, with your own Microsoft identity: SQL analytics endpoint, OneLake Delta tables, access check and team-validated queries. No MCP server and no datons account needed. Lives in its own repo: [`datons/fabric`](https://github.com/datons/fabric).
 
 ## Install
 
@@ -27,11 +27,12 @@ claude plugin install lex@datons
 
 ### Codex
 
-```bash
-codex plugin marketplace add datons/agent-plugins
-```
+`fabric` installs from its own repo:
 
-Then `codex plugin add fabric@datons`. Only `fabric` ships a Codex manifest for now.
+```bash
+codex plugin marketplace add datons/fabric
+codex plugin add fabric@datons-fabric
+```
 
 ### VSCode Copilot Chat (agent mode)
 
