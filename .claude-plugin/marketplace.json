@@ -13,29 +13,77 @@
       "source": "./lex",
       "description": "Spanish, Italian and Chilean legislation. Resolve citations, search the corpus (101K+ laws / 700K+ legal units), compare versions, read historical versions of any article.",
       "category": "legal",
-      "tags": ["legal", "legislation", "boe", "lex", "spanish", "italian", "chilean"]
+      "tags": [
+        "legal",
+        "legislation",
+        "boe",
+        "lex",
+        "spanish",
+        "italian",
+        "chilean"
+      ]
     },
     {
       "name": "esios",
       "source": "./esios",
       "description": "Iberian electricity market (MIBEL) data via ESIOS (REE): daily market prices, demand, generation by technology, balancing services (SRAD).",
       "category": "energy",
-      "tags": ["energy", "electricity", "market", "esios", "ree", "mibel", "iberia"]
-    }
-    ,
+      "tags": [
+        "energy",
+        "electricity",
+        "market",
+        "esios",
+        "ree",
+        "mibel",
+        "iberia"
+      ]
+    },
     {
       "name": "tutorial-plugin",
       "source": "./tutorial-plugin",
       "description": "Plugin de ejemplo para tutorial; contiene una skill 'hello-world' demostrativa.",
       "category": "tutorial",
-      "tags": ["tutorial", "example", "demo", "precio-md"]
+      "tags": [
+        "tutorial",
+        "example",
+        "demo",
+        "precio-md"
+      ]
     },
     {
       "name": "fabric",
-      "source": { "source": "github", "repo": "datons/fabric" },
+      "source": {
+        "source": "github",
+        "repo": "datons/fabric"
+      },
       "description": "Lakehouses de Microsoft Fabric desde Python con tu propia identidad de Microsoft: SQL analytics endpoint con mssql-python, Delta en OneLake con deltalake, comprobación de acceso y consultas validadas por equipo.",
       "category": "data",
-      "tags": ["fabric", "lakehouse", "onelake", "microsoft", "sql", "delta", "python"]
+      "tags": [
+        "fabric",
+        "lakehouse",
+        "onelake",
+        "microsoft",
+        "sql",
+        "delta",
+        "python"
+      ]
+    },
+    {
+      "name": "excel",
+      "source": {
+        "source": "github",
+        "repo": "datons/excel"
+      },
+      "description": "Interpreta macros VBA y libros de Excel y los migra a Python verificado: documentación del proceso, casos de referencia ejecutando la macro en Excel, port con tests de caracterización pytest, y API FastAPI con formulario SvelteKit y shadcn-svelte.",
+      "category": "data",
+      "tags": [
+        "excel",
+        "vba",
+        "macro",
+        "migration",
+        "python",
+        "pytest"
+      ]
     }
   ]
 }
